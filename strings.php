@@ -17,3 +17,18 @@ echo "\n";
 echo "olá mundo!" . PHP_EOL;
 
 echo "eu tenho $idade anos";
+-----------------
+
+// mostrando que o codigo ainda esta em desenvolvimento 
+<?php
+
+$idade = 16;
+
+echo "Olá mundo!" . PHP_EOL;
+echo "Eu tenho \"$idade\" anos";
+
+echo PHP_EOL . PHP_EOL;
+
+echo "Você só pode entrar, se tiver mais de 18 anos\n";
+
+echo "Você tem $idade anos. Pode entrar";
